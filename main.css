@@ -1,0 +1,14 @@
+/* Sets border box to all elements on page*/
+html {
+    box-sizing: border-box;
+}
+*,*::before, *::after { 
+    box-sizing: inherit;
+}
+/* ---------------------------------- */
+
+.centerContent{
+    margin: 0 auto;
+    background-color: rgb(58, 145, 196);
+    width: 1200px;
+}
