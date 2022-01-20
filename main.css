@@ -1,6 +1,7 @@
 /* Sets border box to all elements on page*/
 html {
     box-sizing: border-box;
+    height: 100%;
 }
 *,*::before, *::after { 
     box-sizing: inherit;
@@ -8,7 +9,11 @@ html {
 /* ---------------------------------- */
 
 .centerContent{
+    margin-top: 0;
     margin: 0 auto;
     background-color: rgb(58, 145, 196);
     width: 1200px;
+}
+.headerLinks{
+display: inline-flex;
 }
