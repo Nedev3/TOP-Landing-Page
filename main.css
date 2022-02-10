@@ -3,6 +3,7 @@ html {
     box-sizing: border-box;
     height: 100%;
     padding: 0px;
+    background-color: #1a1c1f;
 }
 *,*::before, *::after { 
     box-sizing: inherit;
@@ -15,50 +16,7 @@ html {
     vertical-align: baseline;
     background: transparent;
 }
-/* ---------------------------------- */
-/**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
- */
 
- button,
- input,
- optgroup,
- select,
- textarea {
-   font-family: inherit; /* 1 */
-   font-size: 100%; /* 1 */
-   line-height: 1.15; /* 1 */
-   margin: 0; /* 2 */
- }
- 
- /**
-  * Show the overflow in IE.
-  * 1. Show the overflow in Edge.
-  */
- 
- button,
- input { /* 1 */
-   overflow: visible;
- }
- 
- /**
-  * Remove the inheritance of text transform in Edge, Firefox, and IE.
-  * 1. Remove the inheritance of text transform in Firefox.
-  */
- 
- button,
- select { /* 1 */
-   text-transform: none;
- }
- 
- button,
- [type="button"],
- [type="reset"],
- [type="submit"] {
-   -webkit-appearance: button;
- }
- /*==========================*/
  
 
 .contentContainer{
@@ -78,7 +36,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .headerLogo{
     font-size: 24px;
@@ -106,6 +64,24 @@ header {
     width: 400px;
     text-align: center;
     background: gray;
-    height: 150px;
+    height: 200px;
     padding-top: 75px;
+}
+.titleSec h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+.titleSec p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.titleSec button {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    font-size: 14px;
+    padding: 4px 30px;
+    border-radius: 8px;
+    margin-top: 10px;
 }
