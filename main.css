@@ -117,3 +117,25 @@ header {
     width: 100px;
     margin: 0 auto;
 }
+
+.quoteSec {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+.quoteSec p{
+    width: 550px;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: lighter;
+}
+.quoteSec :last-child{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    align-self: end;
+    width: fit-content;
+    margin-right: 220px;
+}
